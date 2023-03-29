@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atcwl.gulicollege.mapper.EduSubjectMapper">
+    <resultMap id="subjectMap" type="com.atcwl.gulicollege.vo.SubjectVO">
+        <result property="id" column="id"/>
+        <result property="title" column="title"/>
+        <collection column="id" property="children" ofType="com.atcwl.gulicollege.vo.SubjectVO" select="selectTwoSubject"/>
+    </resultMap>
+    <select id="selectSubjectTree" resultMap="subjectMap">
+        select id, title from `edu_subject`
+        <if test="parentId!=null and parentId!=''">where `parent_id` = #{parentId}</if>
+    </select>
+    <select id="selectTwoSubject" resultMap="subjectMap">
+        select id, title from `edu_subject`
+        where `parent_id` = #{id}
+    </select>
+</mapper>

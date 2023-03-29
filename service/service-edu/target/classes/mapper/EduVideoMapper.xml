@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atcwl.gulicollege.mapper.EduVideoMapper">
+    <select id="selectVideoViewCount" resultType="java.lang.Integer">
+        select SUM(play_count)
+        from edu_video
+        where DATE(gmt_modified) = #{day}
+    </select>
+</mapper>

@@ -1,0 +1,12 @@
+com\atcwl\gulicollege\api\AliyunApiClient.class
+com\atcwl\gulicollege\api\EduApi.class
+com\atcwl\gulicollege\api\fallback\AliyunDegradeApiImpl.class
+com\atcwl\gulicollege\config\MybatisConfig.class
+com\atcwl\gulicollege\handler\GlobalExceptionHandler.class
+com\atcwl\gulicollege\config\RedisConfig.class
+com\atcwl\gulicollege\exception\GuliException.class
+com\atcwl\gulicollege\api\UcenterApi.class
+com\atcwl\gulicollege\config\MybatisAutoInsert.class
+com\atcwl\gulicollege\config\SpringTxAspect.class
+com\atcwl\gulicollege\config\SwaggerConfig.class
+com\atcwl\gulicollege\api\OrderApi.class

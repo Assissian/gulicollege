@@ -1,0 +1,13 @@
+com\atcwl\gulicollege\utils\OSSConfigureProperties.class
+com\atcwl\gulicollege\utils\InitVodClient.class
+com\atcwl\gulicollege\service\OSSService.class
+com\atcwl\gulicollege\controller\OSSController.class
+com\atcwl\gulicollege\service\SmsService.class
+com\atcwl\gulicollege\SpringBootOSS.class
+com\atcwl\gulicollege\service\impl\SmsServiceImpl.class
+com\atcwl\gulicollege\utils\RandomUtil.class
+com\atcwl\gulicollege\service\VodService.class
+com\atcwl\gulicollege\service\impl\OSSServiceImpl.class
+com\atcwl\gulicollege\controller\SmsController.class
+com\atcwl\gulicollege\service\impl\VodServiceImpl.class
+com\atcwl\gulicollege\controller\VodController.class

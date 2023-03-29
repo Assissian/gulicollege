@@ -1,0 +1,14 @@
+com\atcwl\gulicollege\entity\vo\UserRegisterVo.class
+com\atcwl\gulicollege\entity\vo\UserLoginVo.class
+com\atcwl\gulicollege\interceptor\AuthenticationInterceptor.class
+com\atcwl\gulicollege\mapper\UcenterMemberMapper.class
+com\atcwl\gulicollege\utils\HttpClientUtils$2.class
+com\atcwl\gulicollege\controller\WeiXinLoginController.class
+com\atcwl\gulicollege\controller\UcenterMemberController.class
+com\atcwl\gulicollege\UcenterMain.class
+com\atcwl\gulicollege\entity\UcenterMember.class
+com\atcwl\gulicollege\utils\HttpClientUtils$1.class
+com\atcwl\gulicollege\service\UcenterMemberService.class
+com\atcwl\gulicollege\service\impl\UcenterMemberServiceImpl.class
+com\atcwl\gulicollege\utils\HttpClientUtils.class
+com\atcwl\gulicollege\utils\WenXinProperties.class

@@ -1,0 +1,93 @@
+2023-03-27 21:11:16.504 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 21:11:16.509 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 21:11:17.252 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 21:11:17.403 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 21:11:17.425 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 21:11:33.314 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 21:11:33.317 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 21:11:34.388 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 21:11:34.536 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 21:11:34.561 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 21:11:37.263 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 21:11:37.265 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 21:11:38.013 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 21:11:38.176 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 21:11:38.202 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 21:27:19.712 [http-nio-8001-exec-8] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-03-27 21:29:16.130 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-27 21:29:16.129 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-27 21:29:16.130 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-27 21:29:16.131 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-27 21:29:30.892 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 21:29:30.895 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 21:29:31.698 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 21:29:31.853 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 21:29:31.880 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 21:30:00.705 [http-nio-8001-exec-2] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-03-27 21:33:28.083 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s734ms184µs300ns).
+2023-03-27 21:48:30.115 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s229ms822µs500ns).
+2023-03-27 21:48:46.912 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-27 21:48:46.912 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-27 21:48:46.912 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-27 21:48:46.912 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-27 21:50:18.482 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 21:50:18.485 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 21:50:19.183 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 21:50:19.317 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 21:50:19.340 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 21:52:03.796 [http-nio-8007-exec-3] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-03-27 21:52:03.848 [http-nio-8007-exec-3] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-03-27 22:06:27.950 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-27 22:06:27.950 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-27 22:06:27.950 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-27 22:06:27.951 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-27 22:06:38.189 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 22:06:38.192 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 22:06:38.954 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 22:06:39.105 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 22:06:39.127 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 22:07:08.842 [http-nio-8007-exec-4] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-03-27 22:07:08.893 [http-nio-8007-exec-4] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-03-27 22:14:56.255 [http-nio-8001-exec-9] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: service-order
+2023-03-27 22:14:56.256 [http-nio-8001-exec-9] WARN  o.s.c.o.l.FeignBlockingLoadBalancerClient - Load balancer does not contain an instance for the service service-order
+2023-03-27 22:15:04.944 [http-nio-8001-exec-6] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: service-order
+2023-03-27 22:15:04.944 [http-nio-8001-exec-6] WARN  o.s.c.o.l.FeignBlockingLoadBalancerClient - Load balancer does not contain an instance for the service service-order
+2023-03-27 22:15:22.693 [http-nio-8001-exec-10] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: service-order
+2023-03-27 22:15:22.693 [http-nio-8001-exec-10] WARN  o.s.c.o.l.FeignBlockingLoadBalancerClient - Load balancer does not contain an instance for the service service-order
+2023-03-27 22:15:49.659 [http-nio-8001-exec-2] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: service-order
+2023-03-27 22:15:49.660 [http-nio-8001-exec-2] WARN  o.s.c.o.l.FeignBlockingLoadBalancerClient - Load balancer does not contain an instance for the service service-order
+2023-03-27 22:16:11.804 [http-nio-8001-exec-9] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: service-order
+2023-03-27 22:16:11.804 [http-nio-8001-exec-9] WARN  o.s.c.o.l.FeignBlockingLoadBalancerClient - Load balancer does not contain an instance for the service service-order
+2023-03-27 22:16:30.216 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m30s5ms934µs800ns).
+2023-03-27 22:19:11.274 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-27 22:19:11.274 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-27 22:19:11.275 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-27 22:19:11.275 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-27 22:19:19.728 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 22:19:19.730 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 22:19:20.448 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 22:19:20.585 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 22:19:20.607 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 23:52:47.408 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-27 23:52:47.408 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-27 23:52:47.412 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-27 23:52:47.416 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-27 23:52:59.863 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 23:52:59.866 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-27 23:53:00.607 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 23:53:00.798 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 23:53:00.825 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2023-03-27 23:53:24.217 [http-nio-8007-exec-3] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-03-27 23:53:24.272 [http-nio-8007-exec-3] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-03-27 23:58:39.034 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-27 23:58:39.034 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-27 23:58:39.035 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-27 23:58:39.035 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-27 23:58:39.076 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-27 23:58:39.076 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-27 23:58:39.079 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-27 23:58:39.082 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-27 23:58:39.107 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-27 23:58:39.107 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-27 23:58:39.108 [Thread-4] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-27 23:58:39.113 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end

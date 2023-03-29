@@ -1,0 +1,376 @@
+2023-03-28 09:07:16.258 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-03-28 09:07:16.286 [main] INFO  com.atcwl.gulicollege.ServiceOrderMain - Starting ServiceOrderMain using Java 15 on LAPTOP-N3UOGK91 with PID 27624 (F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-order\target\classes started by 陈伟龙 in F:\studying\another\IdeaProjects\JavaEngineering\gulicollege)
+2023-03-28 09:07:16.286 [main] INFO  com.atcwl.gulicollege.ServiceOrderMain - The following 1 profile is active: "dev"
+2023-03-28 09:07:17.292 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 09:07:17.294 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 09:07:17.315 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-03-28 09:07:17.490 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2f9408bc-99c2-3304-9cee-41d6eb2427bc
+2023-03-28 09:07:17.815 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8007 (http)
+2023-03-28 09:07:17.823 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:07:17.823 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-28 09:07:17.823 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-28 09:07:17.949 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-28 09:07:17.949 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1625 ms
+2023-03-28 09:07:18.781 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-edu' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 09:07:18.850 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-ucenter' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 09:07:19.563 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-28 09:07:19.582 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:07:19.586 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:07:20.791 [main] INFO  org.reflections.Reflections - Reflections took 24 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-28 09:07:20.811 [main] INFO  org.reflections.Reflections - Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-28 09:07:20.821 [main] INFO  org.reflections.Reflections - Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-28 09:07:20.829 [main] INFO  org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-28 09:07:20.836 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-28 09:07:20.844 [main] INFO  org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-28 09:07:20.972 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-03-28 09:07:20.979 [main] INFO  com.atcwl.gulicollege.UcenterMain - Starting UcenterMain using Java 15 on LAPTOP-N3UOGK91 with PID 11980 (F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\target\classes started by 陈伟龙 in F:\studying\another\IdeaProjects\JavaEngineering\gulicollege)
+2023-03-28 09:07:20.980 [main] INFO  com.atcwl.gulicollege.UcenterMain - The following 1 profile is active: "dev"
+2023-03-28 09:07:21.683 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 09:07:21.685 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 09:07:21.703 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-03-28 09:07:21.837 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:07:21.845 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8007 (http) with context path ''
+2023-03-28 09:07:21.862 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.28.1:8007 register finished
+2023-03-28 09:07:21.866 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=af74e061-320d-3626-a349-c5169b62cbe8
+2023-03-28 09:07:22.086 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-28 09:07:22.097 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-28 09:07:22.121 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-28 09:07:22.191 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8160 (http)
+2023-03-28 09:07:22.201 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8160"]
+2023-03-28 09:07:22.201 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-28 09:07:22.202 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-28 09:07:22.246 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2023-03-28 09:07:22.273 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7dddfc35:0/SimpleConnection@2c56e044 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53964]
+2023-03-28 09:07:22.321 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-28 09:07:22.322 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1307 ms
+2023-03-28 09:07:22.325 [main] INFO  com.atcwl.gulicollege.ServiceOrderMain - Started ServiceOrderMain in 6.858 seconds (JVM running for 7.675)
+2023-03-28 09:07:23.290 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-28 09:07:23.308 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:07:23.310 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:07:24.174 [main] INFO  org.reflections.Reflections - Reflections took 17 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-28 09:07:24.190 [main] INFO  org.reflections.Reflections - Reflections took 7 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-28 09:07:24.199 [main] INFO  org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-28 09:07:24.208 [main] INFO  org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-28 09:07:24.221 [main] INFO  org.reflections.Reflections - Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-28 09:07:24.229 [main] INFO  org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-28 09:07:25.099 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8160"]
+2023-03-28 09:07:25.108 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8160 (http) with context path ''
+2023-03-28 09:07:25.122 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-ucenter 192.168.28.1:8160 register finished
+2023-03-28 09:07:25.351 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-28 09:07:25.360 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-28 09:07:25.381 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-28 09:07:25.563 [main] INFO  com.atcwl.gulicollege.UcenterMain - Started UcenterMain in 5.226 seconds (JVM running for 5.987)
+2023-03-28 09:07:27.133 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-03-28 09:07:27.140 [main] INFO  com.atcwl.gulicollege.SpringBootMain - Starting SpringBootMain using Java 15 on LAPTOP-N3UOGK91 with PID 25232 (F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-edu\target\classes started by 陈伟龙 in F:\studying\another\IdeaProjects\JavaEngineering\gulicollege)
+2023-03-28 09:07:27.141 [main] INFO  com.atcwl.gulicollege.SpringBootMain - The following 1 profile is active: "dev"
+2023-03-28 09:07:27.858 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 09:07:27.859 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 09:07:27.878 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-03-28 09:07:28.038 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=f24c2520-79ee-3878-a818-56bde40d4254
+2023-03-28 09:07:28.167 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atcwl.gulicollege.config.RedisConfig$$EnhancerBySpringCGLIB$$556618cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-28 09:07:28.371 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-28 09:07:28.377 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-28 09:07:28.378 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-28 09:07:28.378 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-28 09:07:28.501 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-28 09:07:28.501 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1331 ms
+2023-03-28 09:07:29.219 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-aliyun' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 09:07:29.301 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-order' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 09:07:29.693 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-28 09:07:29.708 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:07:29.710 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:07:30.557 [main] INFO  org.reflections.Reflections - Reflections took 16 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-28 09:07:30.573 [main] INFO  org.reflections.Reflections - Reflections took 8 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-28 09:07:30.581 [main] INFO  org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-28 09:07:30.589 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-28 09:07:30.596 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-28 09:07:30.604 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-28 09:07:31.455 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-28 09:07:31.462 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-28 09:07:31.474 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.28.1:8001 register finished
+2023-03-28 09:07:31.701 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-28 09:07:31.711 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-28 09:07:31.732 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-28 09:07:31.962 [main] INFO  com.atcwl.gulicollege.SpringBootMain - Started SpringBootMain in 5.467 seconds (JVM running for 6.288)
+2023-03-28 09:09:35.123 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 09:09:35.123 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-28 09:09:35.125 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-28 09:09:35.156 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-28 09:09:35.552 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-28 09:09:40.037 [http-nio-8007-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 09:09:40.038 [http-nio-8007-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-28 09:09:40.039 [http-nio-8007-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-28 09:09:40.113 [http-nio-8007-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-28 09:09:40.268 [http-nio-8007-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-28 09:09:45.353 [http-nio-8160-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 09:09:45.353 [http-nio-8160-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-28 09:09:45.354 [http-nio-8160-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-28 09:09:45.398 [http-nio-8160-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-28 09:09:45.609 [http-nio-8160-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-28 09:12:04.722 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-03-28 09:12:05.555 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-03-28 09:12:05.589 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-03-28 09:12:05.593 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-03-28 09:12:05.949 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+2023-03-28 09:12:05.950 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-28 09:12:05.957 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-28 09:12:09.456 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-03-28 09:12:09.461 [main] INFO  com.atcwl.gulicollege.ServiceOrderMain - Starting ServiceOrderMain using Java 15 on LAPTOP-N3UOGK91 with PID 12476 (F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-order\target\classes started by 陈伟龙 in F:\studying\another\IdeaProjects\JavaEngineering\gulicollege)
+2023-03-28 09:12:09.462 [main] INFO  com.atcwl.gulicollege.ServiceOrderMain - The following 1 profile is active: "dev"
+2023-03-28 09:12:10.138 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 09:12:10.139 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 09:12:10.156 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-03-28 09:12:10.309 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2f9408bc-99c2-3304-9cee-41d6eb2427bc
+2023-03-28 09:12:10.623 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8007 (http)
+2023-03-28 09:12:10.631 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:12:10.632 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-28 09:12:10.632 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-28 09:12:10.753 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-28 09:12:10.753 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1260 ms
+2023-03-28 09:12:11.378 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-edu' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 09:12:11.419 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-ucenter' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 09:12:11.930 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-28 09:12:11.945 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:12:11.947 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:12:12.844 [main] INFO  org.reflections.Reflections - Reflections took 16 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-28 09:12:12.860 [main] INFO  org.reflections.Reflections - Reflections took 7 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-28 09:12:12.868 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-28 09:12:12.877 [main] INFO  org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-28 09:12:12.885 [main] INFO  org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-28 09:12:12.896 [main] INFO  org.reflections.Reflections - Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-28 09:12:13.772 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:12:13.779 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8007 (http) with context path ''
+2023-03-28 09:12:13.789 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.28.1:8007 register finished
+2023-03-28 09:12:14.000 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-28 09:12:14.010 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-28 09:12:14.034 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-28 09:12:14.121 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2023-03-28 09:12:14.140 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#71316cd7:0/SimpleConnection@1f7853af [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54491]
+2023-03-28 09:12:26.218 [main] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.io.IOException
+2023-03-28 09:12:41.284 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-03-28 09:12:41.286 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-03-28 09:12:41.286 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-03-28 09:12:41.288 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-03-28 09:12:41.803 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:12:41.804 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-28 09:12:41.807 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:12:41.809 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:12:41.816 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-28 09:13:27.642 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-03-28 09:13:27.648 [main] INFO  com.atcwl.gulicollege.ServiceOrderMain - Starting ServiceOrderMain using Java 15 on LAPTOP-N3UOGK91 with PID 21296 (F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-order\target\classes started by 陈伟龙 in F:\studying\another\IdeaProjects\JavaEngineering\gulicollege)
+2023-03-28 09:13:27.649 [main] INFO  com.atcwl.gulicollege.ServiceOrderMain - The following 1 profile is active: "dev"
+2023-03-28 09:13:28.327 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 09:13:28.329 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 09:13:28.345 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-03-28 09:13:28.502 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2f9408bc-99c2-3304-9cee-41d6eb2427bc
+2023-03-28 09:13:28.813 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8007 (http)
+2023-03-28 09:13:28.820 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:13:28.820 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-28 09:13:28.820 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-28 09:13:28.933 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-28 09:13:28.934 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1257 ms
+2023-03-28 09:13:29.532 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-edu' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 09:13:29.574 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-ucenter' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 09:13:30.079 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-28 09:13:30.094 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:13:30.097 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:13:30.952 [main] INFO  org.reflections.Reflections - Reflections took 21 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-28 09:13:30.967 [main] INFO  org.reflections.Reflections - Reflections took 7 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-28 09:13:30.975 [main] INFO  org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-28 09:13:30.983 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-28 09:13:30.990 [main] INFO  org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-28 09:13:30.997 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-28 09:13:31.816 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:13:31.823 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8007 (http) with context path ''
+2023-03-28 09:13:31.833 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.28.1:8007 register finished
+2023-03-28 09:13:32.044 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-28 09:13:32.053 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-28 09:13:32.071 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-28 09:13:32.155 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2023-03-28 09:13:32.173 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#14239223:0/SimpleConnection@d970881 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54602]
+2023-03-28 09:13:44.239 [main] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.io.IOException
+2023-03-28 09:13:59.289 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-03-28 09:13:59.290 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-03-28 09:13:59.291 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-03-28 09:13:59.293 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-03-28 09:13:59.790 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:13:59.790 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-28 09:13:59.794 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:13:59.795 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:13:59.802 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-28 09:15:45.695 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-03-28 09:15:45.701 [main] INFO  com.atcwl.gulicollege.ServiceOrderMain - Starting ServiceOrderMain using Java 15 on LAPTOP-N3UOGK91 with PID 26088 (F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-order\target\classes started by 陈伟龙 in F:\studying\another\IdeaProjects\JavaEngineering\gulicollege)
+2023-03-28 09:15:45.702 [main] INFO  com.atcwl.gulicollege.ServiceOrderMain - The following 1 profile is active: "dev"
+2023-03-28 09:15:46.410 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 09:15:46.412 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 09:15:46.430 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-03-28 09:15:46.580 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2f9408bc-99c2-3304-9cee-41d6eb2427bc
+2023-03-28 09:15:46.907 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8007 (http)
+2023-03-28 09:15:46.914 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:15:46.914 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-28 09:15:46.915 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-28 09:15:47.038 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-28 09:15:47.038 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1303 ms
+2023-03-28 09:15:47.693 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-edu' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 09:15:47.734 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-ucenter' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 09:15:48.272 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-28 09:15:48.288 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:15:48.290 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:15:49.158 [main] INFO  org.reflections.Reflections - Reflections took 16 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-28 09:15:49.177 [main] INFO  org.reflections.Reflections - Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-28 09:15:49.185 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-28 09:15:49.193 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-28 09:15:49.200 [main] INFO  org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-28 09:15:49.207 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-28 09:15:50.090 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:15:50.101 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8007 (http) with context path ''
+2023-03-28 09:15:50.116 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.28.1:8007 register finished
+2023-03-28 09:15:50.368 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-28 09:15:50.381 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-28 09:15:50.405 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-28 09:15:50.524 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2023-03-28 09:15:50.555 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#71316cd7:0/SimpleConnection@1f7853af [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54745]
+2023-03-28 09:16:02.634 [main] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.io.IOException
+2023-03-28 09:16:02.660 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-03-28 09:16:02.661 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-03-28 09:16:02.661 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-03-28 09:16:02.665 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-03-28 09:16:03.164 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:16:03.164 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-28 09:16:03.169 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:16:03.171 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:16:03.178 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-28 09:19:05.044 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-03-28 09:19:05.048 [main] INFO  com.atcwl.gulicollege.ServiceOrderMain - Starting ServiceOrderMain using Java 15 on LAPTOP-N3UOGK91 with PID 27308 (F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-order\target\classes started by 陈伟龙 in F:\studying\another\IdeaProjects\JavaEngineering\gulicollege)
+2023-03-28 09:19:05.049 [main] INFO  com.atcwl.gulicollege.ServiceOrderMain - The following 1 profile is active: "dev"
+2023-03-28 09:19:05.717 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 09:19:05.718 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 09:19:05.735 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-03-28 09:19:05.890 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2f9408bc-99c2-3304-9cee-41d6eb2427bc
+2023-03-28 09:19:06.201 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8007 (http)
+2023-03-28 09:19:06.208 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:19:06.208 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-28 09:19:06.208 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-28 09:19:06.322 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-28 09:19:06.322 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1243 ms
+2023-03-28 09:19:06.925 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-edu' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 09:19:06.966 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-ucenter' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 09:19:07.513 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-28 09:19:07.528 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:19:07.531 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 09:19:08.400 [main] INFO  org.reflections.Reflections - Reflections took 20 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-28 09:19:08.415 [main] INFO  org.reflections.Reflections - Reflections took 7 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-28 09:19:08.423 [main] INFO  org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-28 09:19:08.430 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-28 09:19:08.437 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-28 09:19:08.445 [main] INFO  org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-28 09:19:09.379 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8007"]
+2023-03-28 09:19:09.387 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8007 (http) with context path ''
+2023-03-28 09:19:09.398 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.28.1:8007 register finished
+2023-03-28 09:19:09.608 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-28 09:19:09.624 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-28 09:19:09.644 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-28 09:19:09.728 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2023-03-28 09:19:09.747 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1cdd31a4:0/SimpleConnection@510e0dd2 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55074]
+2023-03-28 09:19:09.797 [main] INFO  com.atcwl.gulicollege.ServiceOrderMain - Started ServiceOrderMain in 5.311 seconds (JVM running for 6.059)
+2023-03-28 09:19:14.936 [http-nio-8007-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 09:19:14.936 [http-nio-8007-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-28 09:19:14.937 [http-nio-8007-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-28 09:19:15.010 [http-nio-8007-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-28 09:19:15.200 [http-nio-8007-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-28 09:19:39.644 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-03-28 09:19:39.703 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-03-28 09:19:39.706 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-03-28 09:19:39.734 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-03-28 09:19:39.738 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-03-28 09:19:39.926 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-03-28 09:19:39.960 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-03-28 09:19:39.966 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-03-28 09:19:40.051 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-28 09:19:40.059 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-28 09:19:40.085 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-28 09:19:40.092 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-28 09:19:40.322 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+2023-03-28 09:19:40.323 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-28 09:19:40.328 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-28 17:37:09.397 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-03-28 17:37:09.398 [main] INFO  com.atcwl.gulicollege.SpringBootMain - Starting SpringBootMain v1.0-SNAPSHOT using Java 17.0.5 on LAPTOP-N3UOGK91 with PID 15128 (F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-edu\target\service-edu.jar started by 陈伟龙 in F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-edu\target)
+2023-03-28 17:37:09.411 [main] INFO  com.atcwl.gulicollege.SpringBootMain - The following 1 profile is active: "dev"
+2023-03-28 17:37:10.890 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 17:37:10.893 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 17:37:10.920 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-03-28 17:37:11.289 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2eca8828-0de4-3b76-a561-01ec833f2303
+2023-03-28 17:37:11.769 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atcwl.gulicollege.config.RedisConfig$$EnhancerBySpringCGLIB$$73a5bf47] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-28 17:37:12.497 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-28 17:37:12.524 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-28 17:37:12.525 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-28 17:37:12.525 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-28 17:37:12.674 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-28 17:37:12.675 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3201 ms
+2023-03-28 17:37:13.989 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-aliyun' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 17:37:14.174 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-order' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 17:37:15.203 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-28 17:37:15.259 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 17:37:15.284 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 17:37:16.554 [main] INFO  org.reflections.Reflections - Reflections took 72 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-28 17:37:16.623 [main] INFO  org.reflections.Reflections - Reflections took 58 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-28 17:37:16.682 [main] INFO  org.reflections.Reflections - Reflections took 49 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-28 17:37:17.060 [main] INFO  org.reflections.Reflections - Reflections took 373 ms to scan 162 urls, producing 0 keys and 0 values 
+2023-03-28 17:37:17.107 [main] INFO  org.reflections.Reflections - Reflections took 46 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-28 17:37:17.151 [main] INFO  org.reflections.Reflections - Reflections took 41 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-28 17:37:17.194 [main] INFO  org.reflections.Reflections - Reflections took 40 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-28 17:37:17.553 [main] INFO  org.reflections.Reflections - Reflections took 355 ms to scan 162 urls, producing 0 keys and 0 values 
+2023-03-28 17:37:18.683 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-28 17:37:18.701 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-28 17:37:20.061 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2023-03-28 17:37:20.061 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-28 17:37:20.073 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2023-03-28 17:37:20.074 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+2023-03-28 17:37:20.081 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-28 17:38:23.650 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-03-28 17:38:23.668 [main] INFO  com.atcwl.gulicollege.SpringBootMain - Starting SpringBootMain v1.0-SNAPSHOT using Java 17.0.5 on LAPTOP-N3UOGK91 with PID 3284 (F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-edu\target\service-edu.jar started by 陈伟龙 in F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-edu\target)
+2023-03-28 17:38:23.670 [main] INFO  com.atcwl.gulicollege.SpringBootMain - The following 1 profile is active: "dev"
+2023-03-28 17:38:25.184 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 17:38:25.187 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 17:38:25.215 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-03-28 17:38:25.522 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2eca8828-0de4-3b76-a561-01ec833f2303
+2023-03-28 17:38:25.956 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atcwl.gulicollege.config.RedisConfig$$EnhancerBySpringCGLIB$$a4fe3f4e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-28 17:38:26.583 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-28 17:38:26.608 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-28 17:38:26.609 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-28 17:38:26.610 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-28 17:38:26.751 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-28 17:38:26.752 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3016 ms
+2023-03-28 17:38:28.139 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-aliyun' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 17:38:28.375 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-order' URL not provided. Will try picking an instance via load-balancing.
+2023-03-28 17:38:29.636 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-28 17:38:29.690 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 17:38:29.718 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-28 17:38:30.945 [main] INFO  org.reflections.Reflections - Reflections took 69 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-28 17:38:31.027 [main] INFO  org.reflections.Reflections - Reflections took 58 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-28 17:38:31.086 [main] INFO  org.reflections.Reflections - Reflections took 47 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-28 17:38:31.469 [main] INFO  org.reflections.Reflections - Reflections took 378 ms to scan 162 urls, producing 0 keys and 0 values 
+2023-03-28 17:38:31.510 [main] INFO  org.reflections.Reflections - Reflections took 40 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-28 17:38:31.554 [main] INFO  org.reflections.Reflections - Reflections took 41 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-28 17:38:31.599 [main] INFO  org.reflections.Reflections - Reflections took 41 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-28 17:38:31.962 [main] INFO  org.reflections.Reflections - Reflections took 359 ms to scan 162 urls, producing 0 keys and 0 values 
+2023-03-28 17:38:32.983 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-28 17:38:32.994 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-28 17:38:33.013 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.28.1:8001 register finished
+2023-03-28 17:38:33.238 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-28 17:38:33.254 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-28 17:38:33.281 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-28 17:38:33.515 [main] INFO  com.atcwl.gulicollege.SpringBootMain - Started SpringBootMain in 10.845 seconds (JVM running for 11.764)
+2023-03-28 17:39:39.657 [http-nio-8001-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 17:39:39.658 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-28 17:39:39.668 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-03-28 17:40:10.155 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-28 17:40:10.536 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

@@ -1,0 +1,7 @@
+com\atcwl\gulicollege\mapper\StatisticsDailyMapper.class
+com\atcwl\gulicollege\StatisticsServiceMain.class
+com\atcwl\gulicollege\service\impl\StatisticsDailyServiceImpl.class
+com\atcwl\gulicollege\controller\StatisticsDailyController.class
+com\atcwl\gulicollege\service\StatisticsDailyService.class
+com\atcwl\gulicollege\schedule\DailyScheduleTask.class
+com\atcwl\gulicollege\entity\StatisticsDaily.class

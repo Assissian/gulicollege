@@ -1,0 +1,12 @@
+F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\src\main\java\com\atcwl\gulicollege\controller\UcenterMemberController.java
+F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\src\main\java\com\atcwl\gulicollege\mapper\UcenterMemberMapper.java
+F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\src\main\java\com\atcwl\gulicollege\service\impl\UcenterMemberServiceImpl.java
+F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\src\main\java\com\atcwl\gulicollege\entity\vo\UserRegisterVo.java
+F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\src\main\java\com\atcwl\gulicollege\UcenterMain.java
+F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\src\main\java\com\atcwl\gulicollege\utils\HttpClientUtils.java
+F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\src\main\java\com\atcwl\gulicollege\interceptor\AuthenticationInterceptor.java
+F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\src\main\java\com\atcwl\gulicollege\controller\WeiXinLoginController.java
+F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\src\main\java\com\atcwl\gulicollege\entity\UcenterMember.java
+F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\src\main\java\com\atcwl\gulicollege\entity\vo\UserLoginVo.java
+F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\src\main\java\com\atcwl\gulicollege\service\UcenterMemberService.java
+F:\studying\another\IdeaProjects\JavaEngineering\gulicollege\service\service-ucenter\src\main\java\com\atcwl\gulicollege\utils\WenXinProperties.java

@@ -1,0 +1,7 @@
+com\atcwl\gulicollege\controller\front\CrmBannerFrontController.class
+com\atcwl\gulicollege\service\CrmBannerService.class
+com\atcwl\gulicollege\service\impl\CrmBannerServiceImpl.class
+com\atcwl\gulicollege\ServiceCmsMain.class
+com\atcwl\gulicollege\entity\CrmBanner.class
+com\atcwl\gulicollege\controller\CrmBannerController.class
+com\atcwl\gulicollege\mapper\CrmBannerMapper.class
